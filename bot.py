@@ -4,7 +4,7 @@ from admin import admin_panel, admin_callback, add_car, edit_car_search, edit_ca
 from database import populate_initial_data
 
 # توكن البوت (استبدله بتوكن البوت الخاص بك من BotFather)
-TOKEN = "7553659277:AAErkPDrYbx8ey-MzgvTvAwqLTtUderjWrY"
+TOKEN = "#######################"
 
 def main():
     # ملء البيانات الأولية
