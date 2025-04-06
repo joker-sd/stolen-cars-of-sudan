@@ -7,7 +7,7 @@ from telegram.ext import (
 from database import Session, Car
 
 # استخدام متغير بيئي لتخزين معرفات المسؤولين
-ADMIN_IDS = list(map(int, os.environ.get('ADMIN_IDS', '6631890583').split(',')))
+ADMIN_IDS = list(map(int, os.environ.get('ADMIN_IDS', '#########').split(',')))
 
 # حالات المحادثة
 CHOOSE_ACTION, ADD_CAR, EDIT_CAR_SEARCH, EDIT_CAR, DELETE_CAR = range(5)
